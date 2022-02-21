@@ -1,0 +1,36 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  width: 50%;
+
+  margin: auto;
+  margin-bottom: 3rem;
+}
+* {
+  outline: none;
+}
+
+input {
+  color: #fff;
+  font-family: Nunito;
+  padding: 0;
+  margin: 0;
+  border: 2px solid;
+  border-radius: 40px;
+  background-color: transparent;
+  width: 60%;
+}
+input[type="search"] {
+  width: 100%;
+  height: 96px;
+  font-size: 60px;
+  line-height: 1;
+}
+
+input[type="search"]::placeholder {
+  color: #e16868;
+}
